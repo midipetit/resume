@@ -1,19 +1,19 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: p16sako/modern-resume-theme
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
+name: Sakoumpentas Christos
 title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+email: c.sakoumpentas@protonmail.com
+phone: +30 694 144 3074
+website: p16sako.github.io/pw
 
 # Social links
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: p16sako
 dribbble_username: jekyll
-facebook_username: jekyll
+facebook_username: Febarios.Celcios
 flickr_username: jekyll
 instagram_username: jekyll
 linkedin_username: jekyll
