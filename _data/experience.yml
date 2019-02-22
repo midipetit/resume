@@ -1,9 +1,9 @@
 # Experience template
-- company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+- company: 'Oblix'
+  link: https://www.oblixrestaurant.com
+  job_title: Commis Waiter
+  dates: 'July 2017 - October 2017'
   quote: >
-   Short description of the company (optional)
+   'Oblix is a sophisticated restaurant with an incredible view as it is house in The Shard, the tallest building in London.'
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    'As a commis waiter i had the responsibility of serving food to the tables, cleaning and setting them up, taking care of the tables and making sure everyone had a pleasant time. Other responsibilities included taking orders, serving drinks and assisting as needed on the floor.'
