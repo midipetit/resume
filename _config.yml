@@ -7,13 +7,13 @@ name: Sakoumpentas Christos
 title: Informatics Student
 email: c.sakoumpentas@protonmail.com
 phone: +30 694 144 3074
-website: p16sako.github.io/pw
+website: csakou.github.io/pw
 
 # Social links
 twitter_username:
-github_username: p16sako
+github_username: 'csakou'
 dribbble_username:
-facebook_username: Febarios.Celcios
+facebook_username: 'Febarios.Celcios'
 flickr_username:
 instagram_username:
 linkedin_username:
@@ -24,7 +24,7 @@ googleplus_username:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: https://github.com/p16sako/pw/blob/master/img/20190218_105918.jpg?raw=true
+about_profile_image: https://github.com/csakou/pw/blob/master/img/20190218_105918.jpg?raw=true
 about_content: | # this will include new lines to allow paragraphs
  I am studying informatics at the [Ionian University](http://di.ionio.gr). I am aspiring to learn as much as possible about what Computations are, the Processing of Information, and to become an expert Programmer. All in all i strive so that at the time this experience is over, i will know deeply about about computing, information and every part that makes a computer what it is.
 
