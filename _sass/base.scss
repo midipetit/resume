@@ -146,7 +146,7 @@ html {
     top: 0px; }
 
 body {
-  background: #ffffff;
+  background: #cccccc;
   font-family: Roboto, sans-serif;
   -webkit-font-smoothing: antialiased; }
 
@@ -154,11 +154,10 @@ body {
   text-align: center; }
 
 .container {
-  background: #444444;
+  background: #dddddd;
   margin-top:30px;
 
   @media print {
-    background: #444444;
     margin-top: 20px;
   }
 }
