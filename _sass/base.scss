@@ -154,8 +154,9 @@ body {
   text-align: center; }
 
 .container {
-  background: #fefefe;
+  background: #efefef;
   margin-top:30px;
+  border-radius: 25%;
 
   @media print {
     margin-top: 20px;
