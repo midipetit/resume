@@ -156,16 +156,17 @@ body {
 .container {
   background: #efefef;
   margin-top:30px;
-  border-radius: 2%;
+  border-radius: 5px;
 
   @media print {
     background: #efefef;
     margin-top: 20px;
-    border-radius: 2%;
+    border-radius: 5px;
   }
 }
 
 .header-container {
+  background: #000000;
   margin-top:50px;
 }
 
