@@ -24,7 +24,7 @@ googleplus_username:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: https://github.com/p16sako/pw/blob/master/img/20190218_105918.jpg
+about_profile_image: https://github.com/p16sako/pw/blob/master/img/20190218_105918.jpg?raw=true
 about_content: | # this will include new lines to allow paragraphs
  I am studying informatics at the [Ionian University](http://di.ionio.gr). I am aspiring to learn as much as possible about what Computations are, the Processing of Information, and to become an expert Programmer. All in all i strive so that at the time this experience is over, i will know deeply about about computing, information and every part that makes a computer what it is.
 
