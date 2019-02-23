@@ -42,15 +42,11 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   **Interests**
-  - Computer Networks
-  - Computer Programming
-  - Machine Learning
-  - Network Security
-
+  *Computer Networks*, *Computer Programming*, *Machine Learning*, *Network Security*, 
+  *Cyber, Internet and Computer Security*, *Automata Theory*, *Algorithms and Complexibility*.
+  
   **Skills**
-  - *Teamwork*
-  - *Desire to learn*
-  - *Adapt easilly*
+  *Teamwork*, *Desire to learn*, *Adapting easilly*
 
 # Footer
 footer_show_references: true
