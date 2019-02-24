@@ -165,7 +165,7 @@ body {
 .navbar {
   width: 50px;
   height: 100%;
-  position: fixed;
+  position: static;
   overflow: hidden; /* Hide overflow */
   background-color: #333; /* Dark background color */
 }
