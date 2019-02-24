@@ -111,6 +111,7 @@ html {
   box-sizing: inherit; }
 
 .btn {
+  width: 100px;
   border: none;
   font-family: inherit;
   font-size: inherit;
@@ -119,7 +120,8 @@ html {
   cursor: pointer;
   padding: 18px 60px;
   display: inline-block;
-  margin: 15px 30px;
+  margin: 15px 20px;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -129,21 +131,26 @@ html {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 0;
+  background: #4E4E4E;
+  color: #9E9E9E; 
+}
+.btn:focus {
   background: #DEDEDE;
-  color: #4C4C4C; }
-  .btn:focus {
-    background: #DEDEDE;
-    color: #4C4C4C; }
-  .btn:hover {
-    background: #CCCCCC;
-    color: #4C4C4C; }
-  .btn:active {
-    top: 2px; }
-  .btn.disabled {
-    background: #EAEAEA;
-    color: #9E9E9E;
-    cursor: default;
-    top: 0px; }
+  color: #4C4C4C; 
+}
+.btn:hover {
+  background: #DEDEDE;
+  color: #4C4C4C; 
+}
+.btn:active {
+  top: 2px; 
+}
+.btn.disabled {
+  background: #EAEAEA;
+  color: #9E9E9E;
+  cursor: default;
+  top: 0px; 
+}
 
 body {
 background: #ffffff;
@@ -195,6 +202,11 @@ font-family: Roboto, sans-serif;
 
 .header-container {
   margin-top: 50px;
+
+  @media(max-width:768px){
+    background: #efefef;
+    border-radius: 20px;
+  }
 }
 
 
