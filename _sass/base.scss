@@ -154,6 +154,7 @@ body {
   text-align: center; }
 
 .container {
+  margin-left:200px;
   margin-top:30px;
 
   @media print {
@@ -165,7 +166,7 @@ body {
 .navbar {
   width: 150px;
   height: 100%;
-  position: absolute;
+  position: fixed;
   overflow: hidden; /* Hide overflow */
   background-color: #333; /* Dark background color */
 }
