@@ -163,7 +163,7 @@ body {
 
 /* Style the top navigation bar */
 .navbar {
-  width: 10%;
+  width: 50px;
   height: 100%;
   position: fixed;
   overflow: hidden; /* Hide overflow */
@@ -180,10 +180,6 @@ body {
   text-decoration: none; /* Remove underline */
 }
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right; /* Float a link to the right */
-}
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
