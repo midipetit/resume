@@ -146,23 +146,29 @@ html {
     top: 0px; }
 
 body {
-  background: #ffffff;
-  font-family: Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased; }
+background: #ffffff;
+font-family: Roboto, sans-serif;
+-webkit-font-smoothing: antialiased; }
 
 .center-text {
   text-align: center; }
 
-.container {
+.container{
   margin-top:30px;
+}
 
+@media(min-width:768px){
+  .container {
+    padding-left: 200px;
+    margin-top:30px;
+  }
   @media print {
     margin-top: 20px;
   }
 }
 
+@media(min-width: 768px){
 /* Style the top navigation bar */
-@media(min-width:768px){
   .navbar {
     width: 150px;
     height: 100%;
@@ -174,13 +180,11 @@ body {
   /* Style the navigation bar links */
   .navbar a {
     float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
     color: white; /* White text color */
     text-align: center; /* Center the text */
     padding: 14px 20px; /* Add some padding */
     text-decoration: none; /* Remove underline */
   }
-
 
   /* Change color on hover/mouse-over */
   .navbar a:hover {
@@ -190,10 +194,14 @@ body {
 }
 
 .header-container {
-  background: #efefef;
-  margin-top:50px;
-  border-radius: 20px;
+  margin-top: 50px;
+
+  @media(max-width:768px){
+    background: #efefef;
+    border-radius: 20px;
+  }
 }
+
 
 .header-right {
   text-align: right;
