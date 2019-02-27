@@ -1,0 +1,21 @@
+<section id="languages">
+  <div class="container languages-container">
+    <h3>{{ site.languages_title | default: "Languages" }}</h3>
+    {% for lang in site.languages%}
+      <div class="row clearfix languages">
+        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+          <h4>{{ lang.language }}</h4>
+          <p><b>{{ lang.proficiency }}</b></p>
+	  <p><b>{{ education.subject }}</b></p>
+          <p>{{ lang.year }}</p>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+          {%- if lang.quote -%}
+            <p class="quote">{{ lang.quote }}</p>
+          {%- endif -%}
+          {{ lang.description | strip | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

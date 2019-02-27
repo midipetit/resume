@@ -1,10 +1,26 @@
 <section id="more">
-  <div class="container more-container">
-    <h3>{{ site.more_title | default: "A Little More About Me" }}</h3>
-    <div class="row clearfix">
-      <div class="col-md-12">
-        {{ site.more_content | strip | markdownify }}
-      </div>
+    <div class="container more-container">
+	<h3>{{ site.more_title | default: "Skills and interests" }}</h3>
+	<div class="row clearfix">
+	    <div class="col-md-12">
+
+		<h2>Skills</h2>
+
+		<ul>
+		{%- for skill in site.skills -%}
+		    	<li>{{ skill | strip | markdownify }}</li>
+		{%- endfor -%}
+		</ul>
+
+		<h2>Interests</h2>
+
+		<ul>
+		{%- for interest in site.interests -%}
+			<li>{{ interest | strip | markdownify }}</li>
+		{%- endfor -%}
+		</ul>
+
+	    </div>
+	</div>
     </div>
-  </div>
 </section>

@@ -1,3 +1,4 @@
+---
 # Site
 repository: p16sako/modern-resume-theme
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
@@ -5,9 +6,16 @@ repository: p16sako/modern-resume-theme
 # Personal info
 name: Sakoumpentas Christos
 title: Informatics Student
+address:
+- Georgiou Karidi 
+- 49100 Corfu
+- Greece
+
 email: c.sakoumpentas@protonmail.com
-phone: +30 694 144 3074
-website: csakou.github.io/pw
+gmail: sakoumpentas@gmail.com
+phone: "+30 694 144 3074"
+homepage: https://csakou.github.io/pw
+resume: csakou.github.io/resume
 
 # Social links
 twitter_username:
@@ -25,33 +33,65 @@ googleplus_username:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://github.com/csakou/pw/blob/master/img/20190218_105918.jpg?raw=true
-about_content: | # this will include new lines to allow paragraphs
- I am studying informatics at the [Ionian University](http://di.ionio.gr){:target="_blank"}. 
+intro: | # this will include new lines to allow paragraphs
+ I am studying informatics at the [Ionian University](http://di.ionio.gr). 
  I am aspiring to learn as much as possible about what Computations are, the Processing of Information, 
  and to become an expert Programmer. All in all i strive so that at the time this experience is over, 
- i will know deeply about about computing, information and every part that makes a computer what it is.
-
-
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+ i will know deeply about information theory, networks and every other interesting aspect of computers.
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
+experience:
+- employer: 'Oblix'
+  link: https://www.oblixrestaurant.com
+  job: Commis Waiter       
+  years: 'July 2017 - October 2017'
+  city: 'London'           
+  quote: >
+   Oblix is a sophisticated restaurant with an incredible view as it is housed in The Shard, the tallest building in London.
+  description: | # this will include new lines to allow paragraphs
+   As a commis waiter i had the responsibility of serving food to the tables, cleaning and setting them up,
+   taking care of the tables and making sure everyone had a pleasant time. Other responsibilities included taking orders,
+   serving drinks and assisting as needed on the floor. 
 
 # Education Section
 # educaton_title: Education #(Use this to override about education section title)
+education:
+- institute: Ionian University
+  year: "2016 -- Currently"
+  qualification: Bachelor of Science
+  subject: Informatics
+  city: Corfu
+  quote: >
+  description: |
+    I am studying Informatics to aquire a B.S. degree and learn all the core concepts about how Databases, Operating Systems,
+    Computer Networks and Computer Programming works. We are also being taught about the importance of Teamwork, working with 
+    tight Deadlines and Managing Projects.
 
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  - **Interests**
-  
-  *Computer Networks*, *Computer Programming*, *Machine Learning*, *Network Security*, 
-  *Cyber Security*, *Internet Security*, *Computer Security*, *Automata Theory*, *Algorithms and Complexibility*.
-  
-  - **Skills**
-  
-  *Teamwork*, *Desire to learn*, *Adapting easilly*
+    The course also tought me about how computer graphics work, what is and how to use information retrieval techniques,
+    machine learning and pattern recognition and lastly about virtual worlds and entertainment software.
+
+languages:
+    - language: Greek
+      proficiency: Native Fluency
+      quote: >
+      description: |
+          I was born in Greece and have lived here for the biggest part of my life so it is only natural that i speak Greek fluently.
+    - language: English
+      proficiency: Edexcel Lower Certificate
+      quote: >
+      description: |
+         I have pass the Edexcel exam to acquire a Lower Certificate. However i will soon take the IELTS test to acquire a
+         proficiency level Certificate in English.
+
+skills:
+- Teamwork, Desire to learn, Adapt easilly
+- Hard working, Social
+
+interests:
+- Computer Networks, Network Security, Computer Security,
+- Automata Theory, Algorithms and Algorithm Complexibility
+- Machine Learning, Databases, Operating Systems
 
 # Footer
 footer_show_references: true
@@ -60,9 +100,16 @@ footer_show_references: true
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
+# Settings
+mainfont: FreeSerif
+fontsize: 10pt
+lang: en
+geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
  - jekyll-seo-tag
+---

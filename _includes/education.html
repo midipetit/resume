@@ -1,12 +1,14 @@
 <section id="education">
   <div class="container education-container">
     <h3>{{ site.education_title | default: "Education" }}</h3>
-    {% for education in site.data.education %}
+    {% for education in site.education %}
       <div class="row clearfix education">
         <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-          <h4>{{ education.name }}</h4>
+          <h4>{{ education.institute }}</h4>
           <p><b>{{ education.qualification }}</b></p>
-          <p>{{ education.dates }}</p>
+	  <p><b>{{ education.subject }}</b></p>
+          <p>{{ education.year }}</p>
+	  <p>{{ education.city }}</p>
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
           {%- if education.quote -%}

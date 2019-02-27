@@ -1,23 +1,24 @@
 <section id="experience">
   <div class="container experience-container">
     <h3>{{ site.experience_title | default: "Experience" }}</h3>
-    {% for experience in site.data.experience %}
+    {% for experience in site.experience %}
       <div class="row clearfix experience">
         <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
           <h4 class="name">
           {%- if experience.link -%}
             {% include a.html href=experience.link %}
           {%- endif -%}
-          {{ experience.company }}
+          {{ experience.employer }}
           {%- if experience.link -%}
             </a>
           {%- endif -%}
           </h4>
-          <p><b>{{ experience.job_title }}</b></p>
-          <p>{{ experience.dates }}</p>
-          {% for job in experience.jobs %}
+          <p><b>{{ experience.job }}</b></p>
+          <p>{{ experience.years }}</p>
+	  <p>{{ experience.city }}</p>
+          {% for job in experience.job %}
             <p><b>{{ job.title }}</b></p>
-            <p>{{ job.dates }}</p>
+            <p>{{ job.years }}</p>
           {% endfor %}
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">

@@ -112,15 +112,15 @@ html {
 
 .btn {
   width: 100px;
+  height: 36px;
   border: none;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 18px 60px;
   display: block;
-  margin: 15px 5px;
+  margin: 0;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -174,7 +174,6 @@ font-family: Roboto, sans-serif;
   }
 }
 
-
 /* Style the top navigation bar */
 .navbar {
   width: 120px;
@@ -185,12 +184,12 @@ font-family: Roboto, sans-serif;
 }
 
 /* Style the navigation bar links */
-.navbar a {
+.navbar a{ 
   float: left; /* Make sure that the links stay side-by-side */
   display: block;
   color: white; /* White text color */
   text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
+  margin: 12px 7px;
   text-decoration: none; /* Remove underline */
 }
 
@@ -199,18 +198,21 @@ font-family: Roboto, sans-serif;
   background-color: #ddd; /* Grey background color */
   color: black; /* Black text color */
 }
+.dropbtn{
+    display: none;
+}
 
 @media(max-width:768px){
   .navbar {
     margin-top: -30px;
     width: 100%;
-    height: 65px;
+    height: 200px;
     position: fixed;
     overflow: hidden;
     background-color: #333;
     z-index: 2;
   }
-
+    
   .navbar a{
     float: left;
     display: block;
@@ -225,8 +227,29 @@ font-family: Roboto, sans-serif;
     color: black;
   }
 
-  .navbar button{
-    float:left;
+  .dropdown{
+    float:right;
+    overflow: scroll;
+  }
+
+  .dropdown .dropbtn{
+    cursor: pointer;
+    width: 100px;
+    height: 36px;
+    font-size: inherit; 
+    border: none;
+    outline: none;
+    color: inherit;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 6px 0px; /* Important for vertical align on mobile phones */
+    background: #4E4E4E;
+    color: #9E9E9E;
+  }
+
+  .dropdown:hover, .dropbtn, .dropbtn:focus{
+    background: #DEDEDE;
+    color: black;
   }
 }
 
