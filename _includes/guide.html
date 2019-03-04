@@ -1,15 +1,31 @@
-<div class="navbar">
-	<div class="dropdown">
-	    <button class="dropbtn">Menu
-		<i class="fa fa-caret-down"></i>
-	    </button>
-	    <div class="content">
-		<a class="btn" href="#info">Info</a>
-		<a class="btn" href="#about">About</a>
-		<a class="btn" href="#experience">Experience</a>
-		<a class="btn" href="#education">Education</a>
-		<a class="btn" href="#languages">Languages</a>
-		<a class="btn" href="#more">More</a>
-	    </div>
+<nav>
+	<input type="checkbox" id="nav" class="hidden">
+	<label for="nav" class="nav-btn">
+		<i></i>
+		<i></i>
+		<i></i>
+	</label>
+	<div class="logo">
+		<a href="#top">RESUME</a>
 	</div>
-</div>
+	<div class="nav-wrapper">
+		<ul>
+			<li><a class="anchor" href="#info">Info</a></li>
+			<li><a class="anchor" href="#about">About</a></li>
+			<li><a class="anchor" href="#experience">Experience</a></li>
+			<li><a class="anchor" href="#education">Education</a></li>
+			<li><a class="anchor" href="#languages">Languages</a></li>
+			<li><a class="anchor" href="#more">More</a></li>
+		</ul>
+	</div>
+</nav>
+
+<script>
+var anchors = document.getElementsByClassName("anchor");
+
+for (var i = 0; i < anchors.length; i++){
+	anchors[i].onclick = function () {
+		document.getElementById("nav").checked = false;
+	}
+}
+</script>
