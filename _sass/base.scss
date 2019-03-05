@@ -251,7 +251,7 @@ font-family: Roboto, sans-serif;
     display: block;
     float: none;
     width: 100%;
-    text-align: right;
+    text-align: left;
     margin-bottom: 10px;
   }
 
@@ -351,6 +351,7 @@ font-family: Roboto, sans-serif;
   #nav:checked ~ .nav-wrapper {
     z-index: 9990;
     opacity: 1;
+    width: 20%;
   }
 
   #nav:checked ~ .nav-wrapper ul li a {
