@@ -351,7 +351,6 @@ font-family: Roboto, sans-serif;
   #nav:checked ~ .nav-wrapper {
     z-index: 9990;
     opacity: 1;
-    width: 20%;
   }
 
   #nav:checked ~ .nav-wrapper ul li a {
