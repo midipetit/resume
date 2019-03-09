@@ -13,7 +13,7 @@ jobs:
           command: 'sudo apt update && sudo apt install texlive texlive-xetex texlive-fonts-extra texlive-latex-extra texlive-plain-extra'
       - run:
           name: Install Pandoc
-          command: 'sudo apt update %% sudo apt install pandoc'
+          command: 'sudo apt update && sudo apt install pandoc'
       - run:
           name: Create pdf.
           command: |
