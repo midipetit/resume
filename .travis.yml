@@ -25,7 +25,8 @@ before_install:
 script:
   - bundle exec jekyll build --config _test/_config.yml
   - bundle exec htmlproofer ./_site --disable-external
-
+  - pandoc _config.yml -s -o resume.pdf --template=template.tex --pdf-engine=xelatex
+  
 after_success:
   - ./scripts/merge-downstream.sh
 
