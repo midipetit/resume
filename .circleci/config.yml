@@ -1,0 +1,25 @@
+jobs:
+  build:
+    machine:
+      pre:
+        - sudo apt-get install texlive-xelatex
+    steps:
+      - checkout
+      - run:
+          name: Install Georgia
+          command: 'echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections; sudo apt update && sudo apt -y install ttf-mscorefonts-installer'
+      - run:
+          name: Install Texlive
+          command: 'sudo apt update && sudo apt install texlive texlive-xelatex texlive-xetex texlive-fonts-extra texlive-latex-extra texlive-plain-extra'
+      - run:
+          name: Install Pandoc
+          command: 'sudo apt update %% sudo apt install pandoc'
+      - run:
+          name: Create pdf.
+          command: |
+           pandoc _config.yml -s -o output.pdf --template=template.tex --pdf-engine=xelatex;
+            mkdir /tmp/artifacts;
+            cp -R builds/* /tmp/artifacts/.
+
+      - store_artifacts:
+          path: /tmp/artifacts
