@@ -17,7 +17,6 @@ jobs:
       - run:
           name: Create pdf.
           command: |
-            pandoc _config.yml -s -o output.pdf --template=template.tex;
             mkdir /tmp/artifacts;
             cp -R builds/* /tmp/artifacts/.
 
