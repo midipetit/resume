@@ -3,11 +3,9 @@ jobs:
     machine:
       pre:
         - sudo apt-get install texlive-xetex
+    working_directory: ~/resume
     steps:
       - checkout
-      - run:
-          name: Install Georgia
-          command: 'echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections; sudo apt update && sudo apt -y install ttf-mscorefonts-installer'
       - run:
           name: Install Texlive
           command: 'sudo apt update && sudo apt install texlive texlive-xetex texlive-fonts-extra texlive-latex-extra texlive-plain-extra'
