@@ -1,7 +1,6 @@
 language: bash
 before_install:
-- sudo apt-get install texlive texlive-xetex texlive-math-extra texlive-latex-recommended
-  texlive-latex-extra
+- sudo apt-get install texlive texlive-xetex texlive-math-extra texlive-latex-recommended texlive-geometry texlive-polyglossia texlive-latex-extra texlive-xunicode texlive-fontawesome texlive-fontspec texlive-xltxtra texlive-marginnote texlive-sectsty texlive-hyperref
 - wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-linux.tar.gz
 - tar xvfz pandoc-2.6-linux.tar.gz
 script:
