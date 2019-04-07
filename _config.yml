@@ -89,9 +89,8 @@ skills:
 - Hard working, Social, Project Management
 
 interests:
-- Computer Networks, Network Security, Computer Security,
-- Automata Theory, Algorithms and Algorithm Complexibility
-- Machine Learning, Databases, Operating Systems
+- Computer Networks, Automata Theory, Algorithms and Algorithm Complexity
+- Machine Learning, Data Management, Distributed Systems
 
 # Footer
 footer_show_references: true
