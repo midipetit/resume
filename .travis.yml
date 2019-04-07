@@ -5,10 +5,5 @@ before_install:
 - tar xvfz pandoc-2.6-linux.tar.gz
 script:
 - bash deploy.sh
-deploy:
-- provider: pages
-- skip_cleanup: true
-- github_token: https://csakou:$GITHUB_TOKEN@github.com/csakou/resume.git  # Set in the settings page of your repository, as a secure variable
-- keep_history: true
-- on:
-    branch: master
+after_success:
+- bash push.sh
