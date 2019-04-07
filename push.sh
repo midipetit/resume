@@ -9,7 +9,7 @@ commit_pdf() {
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
-upload_files() 
+upload_files() {
   git remote remove origin
   git remote add origin https://csakou:$GITHUB_TOKEN@github.com/csakou/resume.git > /dev/null 2>&1
   git push --quiet -u origin master
