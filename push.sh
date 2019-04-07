@@ -4,7 +4,7 @@ setup_git() {
 }
 
 commit_pdf() {
-  git checkout master
+  git checkout -b master
   git add resume.pdf
   git commit --message "[skip ci] Travis build: $TRAVIS_BUILD_NUMBER"
 }
