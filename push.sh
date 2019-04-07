@@ -6,7 +6,7 @@ setup_git() {
 commit_pdf() {
   git checkout master
   git add . *.pdf
-  git commit --message "[skip ci] Travis build: $TRAVIS_BUILD_NUMBER"
+  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
