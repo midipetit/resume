@@ -13,6 +13,6 @@ before_install:
 - sudo apt-get install lmodern
 - chmod +x push.sh
 script:
-- make
+- make pdf
 after_success:
-- bash push.sh
+- "./push.sh"
