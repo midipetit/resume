@@ -5,14 +5,14 @@ setup_git() {
 
 commit_pdf() {
   git checkout master
-  git add resume.pdf
+  git add . *.pdf
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
-  git remote remove origin
-  git remote add origin https://csakou:$GITHUB_TOKEN@github.com/csakou/resume.git
-  git push --quiet -u origin master
+  git remote remove origin-pages
+  git remote add origin-pages https://${GITHUB_TOKEN}@github.com/csakou/resume.git > /dev/null 2>&1
+  git push --quiet --set-upstream origin-pages master
 }
 
 setup_git
