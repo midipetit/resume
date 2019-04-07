@@ -14,5 +14,6 @@ before_install:
 - chmod +x push.sh
 script:
 - make pdf
+- set +u
 after_success:
 - "./push.sh"
