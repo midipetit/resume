@@ -10,9 +10,8 @@ before_install:
 - sudo apt-get install texlive texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra  texlive-science texlive-full
 - wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-linux.tar.gz
 - tar xvfz pandoc-2.6-linux.tar.gz
-- chmod +x deploy.sh
 - chmod +x push.sh
 script:
-- bash deploy.sh
+- make
 after_success:
 - bash push.sh
