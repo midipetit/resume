@@ -35,6 +35,15 @@ about_profile_image: https://github.com/csakou/pw/blob/master/img/20190218_10591
 intro: | # this will include new lines to allow paragraphs
  I am currently working as a Digital Media Specialist and Content Creator for a Digital Advertising Company and at the same time I am doing my master's degree at the [Ionian University](http://di.ionio.gr) in the department of Informatics. 
  I am aspiring to learn as much as possible about Digital Marketing and Advertising.
+ 
+interests:
+- Photography
+- Graphic Design
+- Painting
+- Tennis
+- Snowboarding
+- Yoga
+- Pilates
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
@@ -42,31 +51,58 @@ experience:
 - employer: 'Level Up - Marketing & Advertising Agency'
   link: https://www.levelup.gr
   job: Digital Media Specialist | Content Creator      
-  years: "July 2019 -- Currentl"
+  years: "July 2019 - Currently"
+  city: 'Corfu'           
+  # quote: >
+   
+  # description: | # this will include new lines to allow paragraphs
+  
+- employer: 'Mitsialis Jewellery | chronostore.gr'
+  link: https://www.chronostore.gr
+  job: Sales Assistant | E-shop Assistant      
+  years: "2017 - 2018"
   city: 'Corfu'           
   # quote: >
    
   # description: | # this will include new lines to allow paragraphs
 
+- employer: 'Agricultural University of Athens'
+  link: https://www.aua.gr
+  job: Laboratory Assistant
+  years: "2015 - 2017"
+  city: 'Athens'           
+  # quote: >
+   
+  # description: | # this will include new lines to allow paragraphs
+  
 # Education Section
 # educaton_title: Education #(Use this to override about education section title)
 education:
 - institute: Ionian University
-  year: "2019 -- Currently"
-  qualification: Master of Science
+  year: "January 2019 -- Currently"
+  qualification: MSc in Digital Applications & Innovation 
   subject: Informatics
   city: Corfu
   quote: >
   description: |
-    Msc in Digital Applications & Innovation 
+    Courses
     
-    •	Information Systems and Business Process Management
-    •	Mobile Computing and Applications
-    •	Big Data Analytics
-    •	Innovation and Entrepreneurship in the Digital Economy (e-commerce)
-    •	Security and Privacy Policies in the Internet (GDPR)
-    • Promotion Tools for Cultural & Tourism Products
+    - Information Systems and Business Process Management
+    -	Mobile Computing and Applications
+    -	Big Data Analytics
+    -	Innovation and Entrepreneurship in the Digital Economy (e-commerce)
+    -	Security and Privacy Policies in the Internet (GDPR)
+    - Promotion Tools for Cultural & Tourism Products
     
+- institute: Agricultural University of Athens
+  year: "2010 - 2017"
+  qualification: BSc in Agricultural Sciences 
+                 MSc in Agricultural Engineering
+  subject: Agricultural Engineering
+  city: Athens
+  quote: >
+  description: |
+  
 languages:
     - language: Greek
       proficiency: Native Fluency
@@ -87,12 +123,12 @@ skills:
 - Teamwork, Desire to learn, Adapt easilly
 - Hard working, Social, Project Management
 
-- Digital Skills
+  Digital Skills
 - Photoshop
 - Wordpress
 - Microsoft Office (word, excel, powerpoint)
 
-interests:
+# interests:
 - Photography
 - Graphic Design
 - Painting
