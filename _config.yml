@@ -4,27 +4,26 @@ repository: csakou/resume
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Sakoumpentas Christos
-title: Informatics Student
+name: Anna Mesimeri
+title: Digital Media Specialist | Content Creator
 address:
-- Georgiou Karidi 
 - 49100 Corfu
 - Greece
 
-email: c.sakoumpentas@protonmail.com
-gmail: sakoumpentas@gmail.com
-phone: "+30 694 144 3074"
-homepage: csakou.github.io/pw
-resume: csakou.github.io/resume
+# email: 
+gmail: mesimeriann@gmail.com
+phone: "+30 6985886897"
+# homepage: 
+# resume: 
 
 # Social links
 twitter_username:
-github_username: csakou
+github_username: midipetit
 dribbble_username:
-facebook_username: Febarios.Celsios
+facebook_username: mesimerianna
 flickr_username:
-instagram_username:
-linkedin_username: christos-sakoumpentas-2b9b96172
+instagram_username: thecountessann
+linkedin_username: mesimerianna
 xing_username:
 pinterest_username:
 youtube_username:
@@ -34,43 +33,40 @@ googleplus_username:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://github.com/csakou/pw/blob/master/img/20190218_105918.jpg?raw=true
 intro: | # this will include new lines to allow paragraphs
- I am studying informatics at the [Ionian University](http://di.ionio.gr). 
- I am aspiring to learn as much as possible about what Computations are, the Processing of Information, 
- and to become an expert Programmer. All in all i strive so that at the time this experience is over, 
- i will know deeply about information theory, networks and every other interesting aspect of computers.
+ I am currently working as a Digital Media Specialist and Content Creator for a Digital Advertising Company and at the same time I am doing my master's degree at the [Ionian University](http://di.ionio.gr) in the department of Informatics. 
+ I am aspiring to learn as much as possible about Digital Marketing and Advertising.
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
 experience:
-- employer: 'Oblix'
-  link: https://www.oblixrestaurant.com
-  job: Commis Waiter       
-  years: 'July 2017 - October 2017'
-  city: 'London'           
-  quote: >
-   Oblix is a sophisticated restaurant with an incredible view as it is housed in The Shard, the tallest building in London.
-  description: | # this will include new lines to allow paragraphs
-   As a commis waiter i had the responsibility of serving food to the tables, cleaning and setting them up,
-   taking care of the tables and making sure everyone had a pleasant time. Other responsibilities included taking orders,
-   serving drinks and assisting as needed on the floor. 
+- employer: 'Level Up - Marketing & Advertising Agency'
+  link: https://www.levelup.gr
+  job: Digital Media Specialist | Content Creator      
+  years: "July 2019 -- Currentl"
+  city: 'Corfu'           
+  # quote: >
+   
+  # description: | # this will include new lines to allow paragraphs
 
 # Education Section
 # educaton_title: Education #(Use this to override about education section title)
 education:
 - institute: Ionian University
-  year: "2016 -- Currently"
-  qualification: Bachelor of Science
+  year: "2019 -- Currently"
+  qualification: Master of Science
   subject: Informatics
   city: Corfu
   quote: >
   description: |
-    I am studying Informatics to aquire a B.S. degree and learn all the core concepts about how Databases, Operating Systems,
-    Computer Networks and Computer Programming works. We are also being taught about the importance of Teamwork, working with 
-    tight Deadlines and Managing Projects.
-
-    The course also tought me about how computer graphics work, what is and how to use information retrieval techniques,
-    machine learning and pattern recognition and lastly about virtual worlds and entertainment software.
-
+    Msc in Digital Applications & Innovation 
+    
+    •	Information Systems and Business Process Management
+    •	Mobile Computing and Applications
+    •	Big Data Analytics
+    •	Innovation and Entrepreneurship in the Digital Economy (e-commerce)
+    •	Security and Privacy Policies in the Internet (GDPR)
+    • Promotion Tools for Cultural & Tourism Products
+    
 languages:
     - language: Greek
       proficiency: Native Fluency
@@ -78,19 +74,32 @@ languages:
       description: |
           I was born in Greece and have lived here for the biggest part of my life so it is only natural that i speak Greek fluently.
     - language: English
-      proficiency: Edexcel Lower Certificate
+      proficiency: Level C2 Certificate in English (Proficiency)
       quote: >
       description: |
-         I have pass the Edexcel exam to acquire a Lower Certificate. However i will soon take the IELTS test to acquire a
-         proficiency level Certificate in English.
-
+         
+    - language: German
+      proficiency: Goethe – Zertifikat B1
+      quote: >
+      description: |
+         
 skills:
 - Teamwork, Desire to learn, Adapt easilly
 - Hard working, Social, Project Management
 
+Digital Skills
+- Photoshop
+- Wordpress
+- Microsoft Office (word, excel, powerpoint)
+
 interests:
-- Computer Networks, Automata Theory, Algorithms and Algorithm Complexity
-- Machine Learning, Data Management, Distributed Systems
+- Photography
+- Graphic Design
+- Painting
+- Tennis
+- Snowboarding
+- Yoga
+- Pilates
 
 # Footer
 footer_show_references: true
