@@ -11,7 +11,7 @@ commit_pdf() {
 
 upload_files() {
   git remote remove origin
-  git remote add origin https://csakou:$GH_TOKEN@github.com/midipetit/resume.git
+  git remote add origin https://midipetit:$GH_TOKEN@github.com/midipetit/resume.git
   git push --quiet -u origin master
 }
 
